@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote  name="Hercules"
+           fetch="https://github.com/"
+           revision="xosp-n" />
 
-	<project name="TheHercules/android_device_asus_Z00T"      	        path="device/asus/Z00T"			remote="github" revision="xosp-7" />
-        <project name="TheHercules/android_kernel_asus_msm8916"       		path="kernel/asus/msm8916" 			remote="github" revision="cm-14.1" />
-       <project name="TheHercules/android_device_asus_msm8916-common"      	path="device/asus/msm8916-common"		remote="github" revision="cm-14.1" />
-       <project name="TheHercules/proprietary_vendor_asus"      	        path="vendor/asus/"			remote="github" revision="cm-14.1" />
-        <project name="TheHercules/proprietary_vendor_qcom_binaries"               	path="vendor/qcom/binaries" 			remote="github" revision="cm-14.1" />
-
+        <project name="TheHercules/android_device_asus_Z00T" path="device/asus/Z00T" remote="Hercules" revision="xosp-n" />
+        <project name="LineageOS/android_kernel_asus_msm8916" path="kernel/asus/msm8916" remote="XOSPD" revision="cm-14.1" />
+        <project name="TheHercules/android_device_asus_msm8916-common" path="device/asus/msm8916-common" remote="Hercules" revision="xosp-n" />
+        <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus/" remote="XOSPD" revision="cm-14.1" />
+        <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="XOSPD" revision="cm-14.1" />
 </manifest>
